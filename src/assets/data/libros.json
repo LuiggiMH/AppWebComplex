@@ -1,0 +1,32 @@
+{
+  "libros": [
+    {
+      "id": 1,
+      "titulo": "Luna Nueva",
+      "autor": "Stephane Meyer",
+      "anio": "2018",
+      "genero": "Scy-fi"
+    },
+    {
+      "id": 2,
+      "titulo": "Cien Años de Soledad",
+      "autor": "Garcia Marquez",
+      "anio": "1986",
+      "genero": "Drama"
+    },
+    {
+      "id": 3,
+      "titulo": "Cuarteles de Invierno",
+      "autor": "Anonimo",
+      "anio": "2002",
+      "genero": "Aventura"
+    },
+    {
+      "id": "4",
+      "titulo": "Awakening",
+      "autor": "Masami Kurumada",
+      "anio": "2019",
+      "genero": "Anime"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<div class="row" style="text-align: center;">
+    <div class="col-md-1">
+    </div>
+
+    <div class="col-md-2">
+        <br>
+        <form class="row" action="">
+            <label for="">ID: </label>
+            <input type="text" #id>
+            <br><br>
+            <label for="">Titulo: </label>
+            <input type="text" #tit>
+            <br><br>
+            <label for="">Autor: </label>
+            <input type="text" #aut>
+            <br><br>
+            <label for="">Año: </label>
+            <input type="text" #anio>
+            <br><br>
+            <label for="">Genero: </label>
+            <input type="text" #gen>
+            <br><br>
+            <button class="btn btn-secondary" (click)="guardar(id.value, tit.value, aut.value, anio.value,
+                gen.value)">Registrar</button>
+            <br>
+            <button class="btn btn-success" (click)="actualizar(id.value, tit.value, aut.value, anio.value,
+                gen.value)">Actualizar</button>
+            <br>
+            <button class="btn btn-danger" (click)="eliminar(id.value)">Eliminar</button>
+        </form>
+    </div>
+    <div class="col-md-1">
+
+    </div>
+    <div class="col-md-6">
+        <br>
+        <app-tabla></app-tabla>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<div>
+    <img src="../../assets/images/usuario.png" alt="" width="10%"/>
+</div>
+<form >
+    <div class="mb-3 mt-3">
+      <b><label for="email" class="form-label">Usuario:</label></b>
+      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email" #nick>
+    </div>
+    <div class="mb-3">
+      <b><label for="pwd" class="form-label">Contraseña:</label></b>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" #pass>
+    </div>
+   
+    <button class="btn btn-primary" (click)="login(nick.value, pass.value)">Login</button>
+  </form> 
+  
